@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+
+    
+    
+}
+#LOGO{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#apresentacao{
+    text-align: center;
+    color: white;
+    padding: 20px 50px;
+    text-align: left;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+
+#minitext{
+    text-align: center;
+    color: white;
+    text-align:left;
+    padding: 10px 50px;
+    margin-left: 60px;
+    padding-bottom: 50PX;
+}
+#cabecalho{
+    background-image: url(/imagens/fundomenusuperior.svg);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#menumeio{
+    background-color: #EAECE5;
+    grid-auto-flow: column;
+    display: grid;
+    columns: auto;
+    
+}
+.icone{
+    margin: 50px 0px 50px 100px;
+    padding: 5px;
+    font-size: 55px;
+}
+.textoinfo{
+    display: flex;
+    align-items: center;
+}
+
+#videoapresent{
+    display:grid ;
+    grid-auto-flow:column ;
+    columns: auto;
+}
+
+#titlevideo{
+    color: #247BA0;
+    margin-top:50px ;
+
+}
+
+#textvideo{
+    display: flex;
+    align-items: center;
+
+}
+
+#video{
+    margin: 50px 25px 50px 100px;
+    padding-left: 150px;
+
+}
+
+#carrosel{
+    background-color: #247BA0;
+    padding: 50px;
+
+}
+#carroseltitle{
+    color: #EAECE5;
+    font-size: 30px;
+    text-align: center;
+}
+
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#samantha{
+    display:none;
+}
+
+#setaesquerda{
+    display: none;
+
+}
+.seta{
+    margin-top: 30%;
+    padding: 30px;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration:0.5s ;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titleformulario{
+    font-size: 25px;
+    color: #383838;
+    margin: 25px;
+}
+
+input{
+    width: 413px;
+    height: 53px;
+    top: 1751px;
+    left: 531px;
+    background-color:#EAECE5 ;
+    border-radius: 10px;
+    border: 0px;
+    margin: 20px;
+    padding-left: 15px;
+
+}
+
+button{
+    width: 335px;
+    height: 53px;
+    border-radius: 8px;
+    background: #247BA0;
+    color: #EAECE5;
+    border: 0px;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    cursor:pointer;
+
+}
+
+button:hover{
+    transform: translateY(-7px);
+    background-color: #2c91bd;
+    color: white;
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #686464 ;
+}
